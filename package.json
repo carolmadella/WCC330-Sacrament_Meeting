@@ -1,0 +1,23 @@
+{
+  "name": "wcc330-sacrament_meeting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolmadella/WCC330-Sacrament_Meeting.git"
+  },
+  "author": "Carolina Madella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolmadella/WCC330-Sacrament_Meeting/issues"
+  },
+  "homepage": "https://github.com/carolmadella/WCC330-Sacrament_Meeting#readme",
+  "dependencies": {
+    "mongodb": "^6.8.0",
+    "swagger": "^0.0.1"
+  }
+}
