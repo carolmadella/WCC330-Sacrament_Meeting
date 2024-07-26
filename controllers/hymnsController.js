@@ -96,6 +96,7 @@ exports.updateHymn = async (req, res) => {
       res.status(500).json({ error: "Internal server error" });
     }
   };
+  
 // DELETE route to delete a resource
 exports.deleteHymn = async (req, res) => {
   const hymnId = req.params.id;
