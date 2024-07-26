@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const controller = require('../controllers/activities');
+const controller = require('../controllers/activitiesController');
 const validation = require('../middleware/validate');
 
 router.get('/', controller.getAll);

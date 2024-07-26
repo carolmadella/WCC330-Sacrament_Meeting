@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const controller = require('../controllers/meetings');
+const controller = require('../controllers/meetingsController');
 const validation = require('../middleware/validate');
 
 router.get('/', controller.getAll);

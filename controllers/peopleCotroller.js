@@ -115,5 +115,6 @@ module.exports = {
     getAllPeople,
     getPeopleById,
     createPeople,
+    updatePeople,
     deletePeople
 };
