@@ -39,5 +39,5 @@ const hymnsRoutes = require('./routes/hymnsRoutes');
 app.use('/hymns', hymnsRoutes);
 
 app.listen(3000, () => {
-  console.log("Server is running on Port 3000");
+  console.log("Server is running on Port 5500");
 });
